@@ -1,0 +1,1389 @@
+/* header2 for desktop */
+.head2 {
+  display: grid;
+  padding: 1rem 4rem 1rem 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.head2 img {
+  height: 3rem;
+  width: 10rem;
+  grid-row: 1;
+}
+.head2 .list_item {
+  margin-left: 8%;
+  grid-row: 1;
+  text-align: center;
+  padding-top: 1rem;
+}
+.head2 .list_item li{
+  list-style: none;
+  display: inline;
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  color: #515462;
+}
+.head2 .login_quote {
+  display: inline;
+  font-size: 1.5rem;
+  text-align: right;
+  grid-row: 1;
+  padding-top: 0.5rem;
+}
+.head2 .login_quote #login {
+  background-color: white;
+  border: 1px solid #444756;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: #515462;
+}
+.head2 .login_quote #quote {
+  background-color: #2a2d3e;
+  border: 1px solid #444756;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: white;
+}
+
+/* find affordable healthcare */
+.affordable {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* how it work */
+#how_it_work_container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* world class experts doctors */
+.world_class_doctor {
+  background-color: #001a33;
+  padding: 2rem 2rem;
+  text-align: center;
+  align-self:center;
+}
+.world_class_doctor h2 {
+  color: white;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.world_class_doctor p {
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+.doctors {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(22rem,1fr));
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+}
+.card {
+  height: 25rem;
+  width: 21.5rem;
+  margin: 0.5rem;
+  align-self: center;
+  justify-self: center;
+  
+}
+.card #image {
+  position: absolute;
+  height: 20rem;
+  width: 21.5rem;
+  
+}
+.card #image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.card #intro {
+  position: relative;
+  background-color: white;
+  top: 18rem;
+  border-bottom: 5px solid #abdae4;
+}
+.card #intro h3 {
+  color: #117be1;
+  text-align: left;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 1rem;
+  
+}
+.card #intro h3::before {
+  color: #0173b1;
+  content: "\00a0\00a0\00a0\00a0\00a0 ";
+  text-decoration: line-through;
+  font-size: 1.5rem;
+  position: relative;
+  top: 3px;
+
+}
+.card #intro p {
+  color: #555555;
+  font-style: normal;
+  text-align: left;
+  line-height: 1rem;
+  margin-left: 2.2rem;
+  padding: 0px 0;
+  font-size: 0.8rem;
+}
+.card #intro #loc {
+  padding-bottom: 1rem;
+}
+.world_class_doctor #dot {
+  
+  padding-left: 2rem;
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  color: white;
+}
+
+/* feature medical treatment */
+#medical_treatment {
+  padding: 2rem;
+}
+#medical_treatment h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #2a2d3e;
+  text-align: center;
+  font-weight: bold;
+}
+#medical_treatment p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+.medical_treatment_doctors {
+  display: grid;
+  grid-gap: 1rem;
+  grid-row-gap: 1rem;
+  grid-column-gap: 1rem;
+}
+/* dentestry andorgan */
+.den_org {
+  display: grid;
+  grid-gap: 4%;
+  
+}
+.cancer_ortho {
+  display: grid;
+  grid-gap: 4%;
+  margin-top: 6%;
+}
+.cardiology_infertility {
+  display: grid;
+  grid-gap: 4%;
+  margin-top: 6%;
+}
+#den {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  grid-row: 1;
+   }
+#den img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+}    
+
+#org {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  grid-row: 2;
+   }
+#org img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+}    
+
+/* cancer and ortho */
+#cancer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  grid-row: 1;
+}
+#cancer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#ortho {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  grid-row: 2;
+}
+#ortho img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+/* cardiology and infertility */
+#cardiology {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  grid-row: 1;
+}
+#cardiology img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#infertility {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  grid-row: 2;
+}
+#infertility img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.specialists {
+      position: absolute;
+      bottom: 0px;
+      background-image: linear-gradient(to top,rgba(0,0,0,1) 40%,
+      rgba(0,0,0,0.8) ,rgba(0,0,0,0.5),rgba(0,0,0,0.3),transparent);
+      padding: 1rem 0;
+      width: 100%;
+}
+.specialists h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 1rem;
+  font-size: 1rem;
+  margin-bottom: 0px;
+  padding-top: 2rem;
+}   
+.specialists h5 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 1rem;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}   
+/* exclusive services */
+#exclusive_services {
+  background-color: #f3f3f3;
+  padding: 2rem 5rem ;  
+}
+#exclusive_services h2 {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 2rem;
+ color: #2a2d3e;
+}
+#exclusive_services p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1.5rem 0;
+}
+.services {
+ display: grid;
+ grid-gap: 1rem;
+} 
+.services_type1,.services_type2,.services_type3,.services_type4,.services_type5,.services_type6 {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+  grid-row: 1;
+  
+}
+.services img {
+  height: 5rem;
+  width: 6rem;
+  object-fit: cover;
+}
+.services h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #bfbfbf;
+}
+/* Help Section */
+#help {
+  padding: 2rem 5rem;
+  background-color: #9cbfda;
+  display: grid;
+}
+.text {
+  grid-row: 1;
+}
+#help h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+#help p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  padding: 1.5rem 0;
+}
+.button  {
+  float: right;
+  padding-top: 2rem;
+  grid-row: 1;
+  text-align: right;
+}
+.button button {
+  padding: 1rem 2rem;
+  background-color: #3c7abe;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* footer Section */
+.footer {
+  display: grid;
+  padding: 2rem ;
+  
+  border-bottom: 0.5rem solid #3c7abe;
+}
+#footer_list_para {
+  grid-row: 1;
+}
+#footer_img_social {
+  grid-row: 1;
+  text-align: right;
+}
+#footer_list_para li {
+   list-style: none;
+   display: inline;
+   padding-right: 1rem;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 0.8rem;
+   color:#3c4a57;
+}
+#footer_list_para p{
+   font-family: Arial, Helvetica, sans-serif;
+   color:#3c4a57;
+   font-size: 0.8rem;
+   padding-top: 2.5rem;
+}
+
+#footer_img_social img {
+   height: 2rem;
+   width: 9rem;
+   padding-left: 3.5rem;
+}
+#footer_img_social h3 {
+   padding-left: 2rem;
+   padding-top: 0.8rem;
+}
+#footer_img_social i {
+   padding-left: 0.7rem;
+}
+/*------------------------------ mobile ke lie ------------------------------------------------*/
+@media only screen and (min-width:100px) and (max-width:767px){
+  .head1 {
+    padding: 1rem;
+   }
+   .head1 img {
+    height: 2.5rem;
+    width: 5rem;
+   }
+   .head1 i{
+    float: right;
+    padding-top: 0.8rem;
+   }
+   .head2 {
+     display: none;
+   }
+   /* find affordable healthcare */
+   .affordable{
+    background-color: #94bedd;
+    padding: 2rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .affordable h1 {
+    text-align: center;
+    color: #203554;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .affordable p {
+    text-align: center;
+    color: #3e5d7c;
+    padding: 1.5rem 0;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+  form i {
+    padding-left: 0.5rem;
+  }
+  .affordable .input1 {
+    background-color: white;
+  }
+  .affordable .input1 #cross {
+    float: right;
+    padding-top: 0.8rem;
+    padding-right: 0.5rem;
+    padding-left: 0;
+    margin-left: 0;
+    opacity: 0.6;
+  }
+  .input1 input {
+    border: none;
+    outline: none;
+    padding: 1rem 0;
+    width: 60%;
+  }
+  .input2 {
+    margin-top: 0.5rem;
+  }
+  .input2 input {
+    border: none;
+    outline: none;
+    padding: 1rem 0;
+    width: 100%;
+  }
+  ::placeholder {
+    font-size: 1.2rem;
+    padding-left: 0.2rem;
+  }
+  
+  .btn {
+    text-align: center;
+  }
+  .btn button{
+    background-color: #021433;
+    color: white;
+    border: none;
+    padding: 1rem 3rem;
+    margin-top: 1.5rem;
+    letter-spacing: 1px;
+  }
+  /* find affordable helthcare end */
+   /* world class experts doctors */
+    .world_class_doctor {
+         display: none;
+      }
+      .word_class_doctors {
+        background-color: #001a33;
+        padding: 2rem 0;
+        
+    }
+    
+    .word_class_doctors h2 {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1.8rem;
+     line-height: 2rem;
+     color: #fefffd;
+     text-align: center;
+     text-transform: capitalize;
+     font-weight: bolder;
+     padding: 0.5rem 1rem;
+    }
+    .word_class_doctors p {
+        font-family: Nexa-Light;
+        font-size: 1rem;
+        text-align: center;
+        letter-spacing: 1.2px;
+        line-height: 1.2rem;
+        padding:0.5rem 1rem ;
+        color: #f0f6f4;
+        
+    }
+    .doctor_container {
+        position: relative;
+        text-align: center;
+        margin: 1rem 1rem 0.5rem 1rem;
+      }
+    
+    .doctor_container img {
+        width: 100%;
+        height: 20rem;
+        object-fit: cover;
+    }  
+    .intro {
+        position: relative;
+        bottom: 0.8rem;
+        background-color: white;
+        width: 100%;
+        border-bottom: 5px solid #abdae4;
+      }
+      
+    .intro h3 {
+          color: #117be1;
+          text-align: left;
+          font-size: 1.1rem;
+          padding: 0.5rem 0 0.3rem 0;
+          font-family: Arial, Helvetica, sans-serif;
+    }
+      .intro h3::before {
+          color: #0173b1;
+          content: "\00a0\00a0\00a0\00a0\00a0 ";
+          text-decoration: line-through;
+          font-size: 1.5rem;
+          position: relative;
+          top: 3px;
+        
+      }
+      .intro P {
+          font-style: normal;
+          text-align: left;
+          line-height: 1rem;
+          margin-left: 2.2rem;
+          padding: 1px;
+          font-size: 0.8rem;
+          color: #555555;
+      }
+      .intro .location {
+          padding-bottom: 1rem;
+      }
+      
+      
+  /* how it work */
+  /* how it work */
+  #how_it_work_container {
+   display: none;
+  }
+  .how_it_work_container {
+    padding: 2rem 0;
+}
+
+.how_it_work_container h2{
+    text-align: center;
+    color: #00001a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 1rem 0 0.5rem 0;
+}
+.how_it_work_container p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    padding:  0.5rem 1rem;
+    color: #5b5b63;
+    
+}
+.how_it_work_container strong {
+    padding: 0.8rem 0.2rem 0.5rem 0.8rem;
+}
+.how_it_work_container #fix {
+    color:#272940;
+    border: 1.8px solid black;
+    font-size: 1.5rem;
+    
+}
+.how_it_work_container li {
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #bfbfbf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 1rem 0;
+    margin: 1rem ;
+}
+.how_it_work_container h3 {
+    text-align: center;
+    color: #23283e;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.how_it_work_container img {
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    width:90%;
+    padding: 1.5rem 0 1rem 1.5rem;
+}
+#fix_p {
+    padding-bottom: 0;
+}
+strong {
+    color: #bfbfbf;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 1rem;
+}
+  /* feature medical treatment */
+  #dot2 {
+    display: none;
+  }
+/* exclusive services */
+  #exclusive_services {
+    text-align: center;
+    padding: 2rem;
+  }
+  .services_type1,.services_type2 {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+    grid-row: 1;
+    border-radius: 1em;
+  }
+  .services_type3,.services_type4 {
+    grid-row: 2;
+    border-radius: 1em;
+  }
+  .services_type5,.services_type6 {
+    grid-row: 3;
+    border-radius: 1em;
+  }
+  /*  help section  */
+  #help {
+    text-align: center;
+  }
+  .text {
+    grid-row: 1;
+  }
+  .button {
+    grid-row: 2;
+    text-align: center;
+  }
+  .button .button{
+    padding: 1rem 0.5rem;
+  }
+  /* footer */
+ .footer {
+   display: none;
+ }
+.footer2 {
+  background-color: #22263f;
+  text-align: center;
+  padding: 2rem 0;
+}
+.footer2 ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+.footer2 ul li {
+  color: #cccbc9;
+  font-size: 1rem;
+  padding: 10px;
+}
+.footer2 p {
+  color: #cccbc9;
+  font-size: 1rem;
+  text-align: center;
+  word-spacing: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+
+.social i {
+  color: #cccbc9;
+  font-size: 1rem;
+  padding: 1rem;
+}
+.footer2 img{
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+}
+ /* ---------------------- tablet ke lie ---------------------------------*/
+ @media only screen and (min-width:768px) and (max-width:1024px) {
+  .head1 {
+    padding: 1rem 2rem;
+   }
+   .head1 img {
+    height: 3rem;
+    width: 8rem;
+   }
+   .head1 i{
+    float: right;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+   }
+   .head2 {
+     display: none;
+   }
+   /* affordable healthcare */
+   .affordable{
+    background-color: #94bedd;
+    padding: 4rem 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .affordable h1 {
+    text-align: center;
+    color: #203554;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .affordable p {
+    text-align: center;
+    color: #3e5d7c;
+    padding: 1.5rem 0;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+  form {
+    display: flex;
+    width: 100%;
+  }
+  form i {
+    padding-left: 0.5rem;
+  }
+  .affordable .input1 {
+    background-color: white;
+    height: 2.9rem;
+    width: 100%;
+    border-right: 1px solid #dfdfdf;
+  }
+  .affordable .input1 #cross {
+    float: right;
+    padding-top: 0.8rem;
+    padding-right: 0.5rem;
+    padding-left: 0;
+    margin-left: 0;
+    opacity: 0.6;
+  }
+  .input1 input {
+    border: none;
+    outline: none;
+    padding: 0.9rem 0;
+    width: 60%;
+  }
+  .input2 {
+    width: 250%;
+    border-right: 1px solid #dfdfdf;
+    
+  }
+  .input2 input {
+    border: none;
+    outline: none;
+    padding: 1rem 0;
+    width: 100%;
+    
+  }
+  ::placeholder {
+    font-size: 1.2rem;
+    padding-left: 0.3rem;
+  }
+  .btn {
+    width: 100%;
+  }
+  .btn button{
+    background-color: #021433;
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    height: 3rem;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  
+    /* find affordable healthcare end */
+    
+    /* how it work */
+    .how_it_work_container {
+      display: none;
+    }
+    #how_it_work_container {
+      padding: 2rem ;
+    }
+    #how_it_work_container h2{
+      text-align: center;
+      color: #2a2d3e;
+      font-weight: bolder;
+      font-size: 2rem;
+       margin: 0px;
+    }
+    #how_it_work_container p{
+      padding: 1.5rem 0;
+      text-align: center;
+      color: #2a2d3e;
+    }
+    #how_it_work_container strong {
+      padding: 1rem;
+    }
+    #how_it_work_container #fix {
+      color:#272940;
+      border: 1.8px solid black;
+      font-size: 1.5rem;
+      padding: 1rem 0;
+    }
+    #how_it_work_container li {
+      list-style: none;
+      border: 1px solid #bfbfbf;
+      border-radius: 5px;
+      color: #bfbfbf;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      padding: 1rem 0;
+      margin-top: 1.5rem;
+    }
+    .work_list_img {
+      display: flex;
+  }
+  .how_it_work_img {
+      text-align: center;
+      justify-content: center;
+      width: 50%;
+      padding-left: 2rem;
+
+  }
+  .how_it_work_img figure{
+     height: 26rem;
+     width: 25rem;
+  }
+  .how_it_work_img figure img {
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+  }
+  .how_it_work_img figcaption h3{
+      text-align: center;
+      color: #2a2d3e;
+      font-weight: bolder;
+      padding-top: 1rem;
+  }
+  .how_it_work_list {
+      width: 50%;
+      
+  }
+  .word_class_doctors {
+    display: none;
+  }
+  /* dentestry and organ */
+.den_org {
+  display: grid;
+  width: 100%;
+  grid-gap: 1rem;
+  margin: 0;
+}
+#den {
+  grid-row: 1;
+  height: 100%;
+}
+#org {
+  grid-row: 1;
+  height: 100%;
+}
+.cancer_ortho {
+  display: grid;
+  width: 100%;
+  grid-gap: 1rem;
+  margin: 0;
+}
+#cancer {
+  grid-row: 1;
+  height: 100%;
+}
+#ortho {
+  grid-row: 1;
+  height: 100%;
+}
+.cardiology_infertility {
+  display: grid;
+  width: 100%;
+  grid-gap: 1rem;
+  margin: 0;
+}
+#cardiology {
+  grid-row: 1;
+  height: 100%;
+}
+#infertility {
+  grid-row: 1;
+  height: 100%;
+}
+#dot2 {
+  display: none;
+}
+/* exclusive services */
+#exclusive_services {
+  text-align: center;
+  padding: 2rem;
+}
+.services_type1,.services_type2,.services_type3 {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+  grid-row: 1;
+  border-radius: 1em;
+}
+.services_type4,.services_type5,.services_type6 {
+  grid-row: 2;
+  border-radius: 1em;
+}
+/*  help section  */
+#help {
+  text-align: center;
+}
+.text {
+  grid-row: 1;
+}
+.button {
+  grid-row: 2;
+  text-align: center;
+}
+.button .button{
+  padding: 1rem 0.5rem;
+}
+/* footer */
+.footer2 {
+  display: none;
+}
+
+}
+/* ------------------------------ Desktop Desktop Desktop  ke lie ---------------------------*/
+@media only screen and (min-width:1025px) and (max-width:2000px) {
+
+  .head1 {
+    display: none;
+  }
+  /* affordable */
+  .affordable {
+    padding: 8rem 18rem 8rem 6rem;
+        background-color: #a8c6e0;
+        background-image: url(https://workspace.konfinity.com/swapnil/tvastra-wiki/-/wikis/uploads/678758a07377c9d0a803837c9bd7c55a/img1.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+        object-fit: cover;
+        background-size: cover;
+  }
+  .affordable h1 {
+    
+    color: #203554;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .affordable p {
+    color: #3e5d7c;
+    padding: 1.5rem 0;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+  form {
+    display: flex;
+    width: 100%;
+  }
+  form i {
+    padding-left: 0.5rem;
+  }
+  .affordable .input1 {
+    background-color: white;
+    height: 2.9rem;
+    width: 100%;
+    border-right: 1px solid #dfdfdf;
+  }
+  .affordable .input1 #cross {
+    float: right;
+    padding-top: 0.8rem;
+    padding-right: 0.5rem;
+    padding-left: 0;
+    margin-left: 0;
+    opacity: 0.6;
+  }
+  .input1 input {
+    border: none;
+    outline: none;
+    padding: 0.9rem 0;
+    width: 60%;
+  }
+  .input2 {
+    width: 250%;
+    border-right: 1px solid #dfdfdf;
+    
+  }
+  .input2 input {
+    border: none;
+    outline: none;
+    padding: 1rem 0;
+    width: 100%;
+    
+  }
+  ::placeholder {
+    font-size: 1.2rem;
+    padding-left: 0.3rem;
+  }
+  .btn {
+    width: 100%;
+  }
+  .btn button{
+    background-color: #021433;
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    height: 3rem;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  /* find affordable helthcare end */
+   
+  /* How it work */
+  .how_it_work_container {
+    display: none;
+  }
+ #how_it_work_container {
+  padding: 2rem 6rem;
+}
+#how_it_work_container h2{
+  color: #2a2d3e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+  margin: 0px;
+}
+#how_it_work_container p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  color: #5b5b63;
+  padding: 1.5rem 0 3rem 0;
+}
+#how_it_work_container strong {
+  padding: 2rem;
+}
+#how_it_work_container #fix {
+  color:#272940;
+  border: 1.8px solid black;
+  font-size: 1.5rem;
+  padding: 2rem 0;
+
+  
+}
+#how_it_work_container li {
+  list-style: none;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  color: #bfbfbf;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 2rem 0;
+  margin-top: 5px;
+}
+.work_list_img {
+  display: flex;
+}
+.how_it_work_img {
+  text-align: center;
+  padding-left: 10rem;
+}
+.how_it_work_img figure img {
+ max-height:  30rem;
+ padding-top: 2rem;
+}
+.how_it_work_img figcaption {
+  text-align: center;
+}
+.how_it_work_list {
+  width: 25rem;
+}
+
+
+/*world class experts doctor */
+
+.world_class_doctor {
+  background-color: #001a33;
+  padding: 2rem 5rem;
+}
+.world_class_doctor h2 {
+  color: white;
+  margin-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  text-align: left;
+  font-weight: bolder;
+}
+.world_class_doctor p {
+  color: white;
+  padding: 1rem 0;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+.doctors {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(16rem,1fr));
+  text-align: left;
+}
+.card {
+  height: 25rem;
+  width: 16rem;
+  margin: 0.5rem;
+  
+}
+.card #image {
+  position: absolute;
+  height: 20rem;
+  width: 16rem;
+  
+}
+.card #image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.card #intro {
+  position: relative;
+  background-color: white;
+  top: 18rem;
+  border-bottom: 5px solid #abdae4;
+}
+.card #intro h3 {
+  color: #117be1;
+  text-align: left;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 1rem;
+  
+}
+.card #intro h3::before {
+  color: #0173b1;
+  content: "\00a0\00a0\00a0\00a0\00a0 ";
+  text-decoration: line-through;
+  font-size: 1.5rem;
+  position: relative;
+  top: 3px;
+
+}
+.card #intro p {
+  color: #555555;
+  font-style: normal;
+  text-align: left;
+  line-height: 1rem;
+  margin-left: 2.2rem;
+  padding: 0px 0;
+  font-size: 0.8rem;
+}
+.card #intro #loc {
+  padding-bottom: 1rem;
+}
+.world_class_doctor #dot {
+  padding-left: 2rem;
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  color: white;
+  text-align: left;
+}
+.word_class_doctors {
+  display: none;
+}
+/* ------------------------feature medical treatment ------------------------------------------*/
+#medical_treatment {
+  padding: 2rem 5rem;
+}
+#medical_treatment h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0px;
+  font-size: 2rem;
+  line-height: 2rem;
+  text-align: left;
+  color: #2a2d3e;
+}
+#medical_treatment p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+ 
+  text-align: left;
+}
+.medical_treatment_doctors {
+  display: grid;
+  grid-gap: 1rem;
+}
+/* dentestry andorgan */
+.den_org {
+  grid-row: 1;
+  width: 100%;
+  height: 100%;
+}
+.cancer_ortho {
+  grid-row: 1;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+}
+.cardiology_infertility {
+  grid-row: 1;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+}
+#den {
+  position: relative;
+  width: 100%;
+  height: 105%;
+  
+   }
+#den img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}    
+
+#org {
+  position: relative;
+  width: 100%;
+  height: 150%;
+  object-fit: cover;
+  
+   }
+#org img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+}    
+
+/* cancer and ortho */
+#cancer {
+  position: relative;
+  width: 100%;
+  height: 150%;
+  object-fit: cover;
+  
+}
+#cancer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#ortho {
+  position: relative;
+  width: 100%;
+  height: 102%;
+  object-fit: cover;
+  margin-top: 32%;
+  
+}
+#ortho img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+/* cardiology and infertility */
+#cardiology {
+  position: relative;
+  width: 100%;
+  height: 120%;
+  object-fit: cover;
+  
+}
+#cardiology img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#infertility {
+  position: relative;
+  width: 100%;
+  height: 134%;
+  object-fit: cover;
+  margin-top: 12%;
+}
+#infertility img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.specialists {
+      position: absolute;
+      bottom: 0px;
+      background-image: linear-gradient(to top,rgba(0,0,0,1) 40%,
+      rgba(0,0,0,0.8) ,rgba(0,0,0,0.5),rgba(0,0,0,0.3),transparent);
+      padding: 1rem 0;
+      width: 100%;
+}
+.specialists h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 1rem;
+  font-size: 1rem;
+  margin-bottom: 0px;
+  padding-top: 2rem;
+}   
+.specialists h5 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 1rem;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}   
+#dot2 {
+  font-size: 5rem;
+  padding-left: 1rem;
+  letter-spacing: 2px;
+  padding-top: 15%;
+}
+/* exclusive services */
+#exclusive_services {
+  background-color: #f3f3f3;
+  padding: 2rem 5rem ;  
+}
+#exclusive_services h2 {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 2rem;
+ color: #2a2d3e;
+}
+#exclusive_services p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1.5rem 0;
+}
+.services {
+ display: grid;
+ grid-gap: 1rem;
+} 
+.services_type1,.services_type2,.services_type3,.services_type4,.services_type5,.services_type6 {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+  grid-row: 1;
+  
+}
+.services img {
+  height: 5rem;
+  width: 6rem;
+  object-fit: cover;
+}
+.services h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #bfbfbf;
+}
+/* footer */
+.footer2 {
+  display: none;
+}
+.footer {
+  padding: 2rem 5rem;
+}
+}
